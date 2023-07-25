@@ -1,0 +1,18 @@
+.horizontal-table {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .horizontal-table table {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .horizontal-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .horizontal-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
